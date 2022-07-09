@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import NoteForm from './NoteForm';
 import NoteItem from './NoteItem';
 
 export type Note = {

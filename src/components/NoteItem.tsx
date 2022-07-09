@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { BsFillTrashFill, BsFillPencilFill } from "react-icons/bs";
 
 type NoteItemProp = {
