@@ -3,15 +3,10 @@
 
 name: Deploy to Firebase Hosting
 'on': 
-  pull request:
+  pull_request:
     types:
       - closed
-
   workflow_dispatch:
-
-  push:
-    branches:
-      - master
 jobs:
   build_and_deploy:
     if: github.event.pull_request.merged == true || github.event_name == 'workflow_dispatch'
