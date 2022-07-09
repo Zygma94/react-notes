@@ -21,7 +21,7 @@ function App() {
 
   const setNoteHandler = (id?: string) => (text: string) => {
     if (id) {
-      const index = notes.findIndex(notes => notes.id == id);
+      const index = notes.findIndex(notes => notes.id === id);
       notes.splice(index, 1, { text, id, deleted: false });
       setNotes([...notes]);
     } else {
@@ -30,7 +30,7 @@ function App() {
   }
 
   const removeNoteHandler = (id: string) => {
-    const index = notes.findIndex(notes => notes.id == id);
+    const index = notes.findIndex(notes => notes.id === id);
     if (notes[index].deleted) {
       Swal.fire({
         title: 'Caution',
