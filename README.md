@@ -1,6 +1,6 @@
 # Notes App
 
-My first notes application [Notes App](https://notes-dbl.firebaseapp.com/)
+My first notes application [Notes App](https://notes-dbl.web.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
